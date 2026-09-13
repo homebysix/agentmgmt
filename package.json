@@ -5,13 +5,14 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "npm run build && concurrently -k -n build,wrangler -c blue,magenta \"chokidar 'src/**/*' -c 'npm run build'\" \"wrangler dev\"",
-    "deploy": "npm run build && wrangler deploy",
-    "update-stars": "node scripts/update-stars.mjs"
+    "deploy": "bin/deploy",
+    "update-stars": "node scripts/update-stars.mjs",
+    "cf:dev": "npm run build && wrangler dev"
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
     "concurrently": "^9.1.0",
     "js-yaml": "^4.1.0",
-    "wrangler": "^4.90.0"
+    "wrangler": "latest"
   }
 }
