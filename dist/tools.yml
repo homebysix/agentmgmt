@@ -1,3 +1,20 @@
+- name: Xirp
+  url: https://xirp.spotify.com/
+  price: Free
+  github_stars: 0
+  opensource: false
+  os: [macos]
+
+- name: den
+  url: https://useden.ai/
+  links:
+    - https://x.com/oyabun
+    - https://github.com/jalonsogo/den
+  price: Free
+  github_stars: 0
+  opensource: true
+  os: [macos, windows]
+
 - name: Conductor
   url: https://www.conductor.build/
   links:
@@ -62,7 +79,7 @@
     - https://x.com/trySynara
     - https://github.com/Emanuele-web04/synara
   price: Free
-  github_stars: 1400
+  github_stars: 1800
   opensource: true
   os: [macos, linux, windows]
 
@@ -73,8 +90,8 @@
     - https://x.com/superset_sh
     - https://discord.gg/cZeD9WYcV7
     - https://github.com/superset-sh/superset
-  price: Free
-  github_stars: 13000
+  price: Freemium
+  github_stars: 14000
   opensource: true
   os: [macos]
 
@@ -85,7 +102,7 @@
     - https://x.com/khoiracle
     - https://github.com/supabitapp/supacode
   price: Free
-  github_stars: 2200
+  github_stars: 2400
   opensource: true
   os: [macos]
 
@@ -96,7 +113,7 @@
     - https://discord.gg/fzjDKHxv8Q
     - https://github.com/stablyai/orca
   price: Free
-  github_stars: 33000
+  github_stars: 67000
   opensource: true
   os: [macos, linux, windows, android, ios]
 
@@ -111,7 +128,7 @@
     - https://www.reddit.com/r/ZedEditor/
     - https://github.com/zed-industries/zed
   price: Freemium
-  github_stars: 88000
+  github_stars: 90000
   opensource: true
   os: [macos, linux, windows]
 
@@ -144,7 +161,7 @@
     - https://discord.gg/xsgFEVrWCZ
     - https://github.com/manaflow-ai/cmux
   price: Free
-  github_stars: 25000
+  github_stars: 27000
   opensource: true
   os: [macos]
 
@@ -153,7 +170,7 @@
   links:
     - https://github.com/mixpeek/amux
   price: Freemium
-  github_stars: 300
+  github_stars: 400
   opensource: true
   os: [macos, linux, web, ios]
 
@@ -163,7 +180,7 @@
     - https://discord.gg/ZYRSdnwwKA
     - https://github.com/openchamber/openchamber
   price: Free
-  github_stars: 7000
+  github_stars: 9800
   opensource: true
   os: [macos, web]
 
@@ -174,7 +191,7 @@
     - https://x.com/emdashsh
     - https://github.com/generalaction/emdash
   price: Free
-  github_stars: 5300
+  github_stars: 5700
   opensource: true
   os: [macos, linux, windows]
 
@@ -192,7 +209,7 @@
   links:
     - https://github.com/coollabsio/jean
   price: Free
-  github_stars: 1200
+  github_stars: 1300
   opensource: true
   os: [macos, windows, linux]
 
@@ -215,7 +232,7 @@
   links:
     - https://github.com/Runfusion/Fusion
   price: Free
-  github_stars: 1000
+  github_stars: 1200
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -226,7 +243,7 @@
     - https://github.com/maddada/Ghostex
     - https://x.com/maddada
   price: Free
-  github_stars: 700
+  github_stars: 800
   opensource: true
   os: [macos, android, ios]
 
@@ -236,7 +253,7 @@
   links:
     - https://github.com/kdlbs/kandev
   price: Free
-  github_stars: 500
+  github_stars: 800
   opensource: true
   os: [macos, linux, windows]
 
@@ -255,7 +272,7 @@
   links:
     - https://github.com/njbrake/agent-of-empires
   price: Free
-  github_stars: 2900
+  github_stars: 3200
   opensource: true
   os: [macos, linux, web]
 
@@ -275,7 +292,7 @@
     - https://discord.gg/jz8T2uahpH
     - https://github.com/getpaseo/paseo
   price: Free
-  github_stars: 12000
+  github_stars: 17000
   opensource: true
   os: [macos, web, android, ios]
 
@@ -294,7 +311,7 @@
   links:
     - https://github.com/ogulcancelik/herdr
   price: Free
-  github_stars: 23000
+  github_stars: 38000
   opensource: true
   os: [macos, linux]
 
@@ -307,7 +324,7 @@
     - https://www.instagram.com/nimbalyst
     - https://github.com/nimbalyst/nimbalyst
   price: Free
-  github_stars: 1400
+  github_stars: 1700
   opensource: true
   os: [macos, linux, windows]
 
@@ -317,7 +334,7 @@
   links:
     - https://github.com/NeuralNomadsAI/CodeNomad
   price: Free
-  github_stars: 2400
+  github_stars: 2600
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -326,7 +343,7 @@
   links:
     - https://github.com/AgentWrapper/agent-orchestrator
   price: Free
-  github_stars: 8700
+  github_stars: 12000
   opensource: true
   os: [macos, linux, windows, web]
 
@@ -347,6 +364,57 @@
   opensource: false
   os: [macos, linux, windows]
 
+- name: Xum
+  url: https://xum.coder.com/
+  links:
+    - https://github.com/coder/xum
+  details: Desktop app for running coding agents in parallel, each in an isolated workspace.
+  price: Free
+  github_stars: 2000
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Vibe Kanban
+  url: https://www.vibekanban.com/
+  links:
+    - https://github.com/BloopAI/vibe-kanban
+  details: Kanban board for running coding agents in parallel, each in an automatically created git worktree.
+  price: Free
+  github_stars: 28000
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Happy
+  url: https://happy.engineering/
+  links:
+    - https://discord.gg/fX9WBAhyfD
+    - https://github.com/slopus/happy
+  details: Mobile and web client for driving Claude Code and Codex sessions remotely, end-to-end encrypted.
+  price: Free
+  github_stars: 24000
+  opensource: true
+  os: [macos, linux, web, android, ios]
+
+- name: dmux
+  url: https://dmux.ai/
+  links:
+    - https://github.com/standardagents/dmux
+  details: Runs coding agents in parallel tmux panes, each in its own git worktree and branch.
+  price: Free
+  github_stars: 1800
+  opensource: true
+  os: [macos, linux]
+
+- name: HAPI
+  url: https://hapi.run/
+  links:
+    - https://github.com/tiann/hapi
+  details: Local-first mobile, web, PWA, and Telegram client for driving Claude Code, Codex, and other agents remotely.
+  price: Free
+  github_stars: 5100
+  opensource: true
+  os: [macos, linux, web, android, ios]
+
 - name: Devin
   url: https://devin.ai/
   links:
@@ -362,7 +430,7 @@
     - https://discord.gg/jn4EGJjrvv
     - https://github.com/pingdotgg/t3code
   price: Free
-  github_stars: 16000
+  github_stars: 23000
   opensource: true
   os: [macos, linux, windows]
 
@@ -385,7 +453,7 @@
     - https://www.youtube.com/@warpdotdev
     - https://go.warp.dev/join-preview
   price: Freemium
-  github_stars: 64000
+  github_stars: 65000
   opensource: true
   os: [macos, linux, windows]
 
@@ -402,7 +470,7 @@
     - https://discord.gg/4eMXAmJQ2n
     - https://github.com/muxy-app/muxy
   price: Free
-  github_stars: 2100
+  github_stars: 2200
   opensource: true
   os: [macos]
 
@@ -420,6 +488,36 @@
   url: https://nodeterm.dev/
   links:
     - https://github.com/eneskirca/nodeterm
-  github_stars: 100
+  github_stars: 1800
   opensource: false
   os: [macos]
+
+- name: Clor
+  url: https://clor.com/
+  links:
+    - https://x.com/clor_cli
+    - https://bsky.app/profile/clor.com
+  price: Freemium
+  github_stars: 0
+  opensource: false
+  os: [macos, linux, web]
+
+- name: Luvus
+  url: https://luvus.dev/
+  links:
+    - https://x.com/luvusdev
+    - https://github.com/RizRiyz/luvus
+  price: Free
+  github_stars: 800
+  opensource: true
+  os: [macos, linux, windows]
+
+- name: Sidecar
+  url: https://sidecar.haplab.com/
+  links:
+    - https://github.com/marcus/sidecar
+  details: Shell for AI coding agents with diffs, file trees, conversation history, and task management.
+  price: Free
+  github_stars: 1100
+  opensource: true
+  os: [macos, linux]
